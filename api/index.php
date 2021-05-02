@@ -1,3 +1,4 @@
 <?php
 
-header('location:api/getall.php');
+header('location:getall.php');
+die;
