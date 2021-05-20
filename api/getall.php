@@ -12,7 +12,8 @@ if($method === 'get'){
         foreach ($data as $item) {
             $array['result'][] = [
                 'id' => $item['id'],
-                'title' => $item['title']
+                'title' => $item['title'],
+                'body' => $item['body']
             ];
         }
         
